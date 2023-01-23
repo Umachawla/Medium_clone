@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #FFC017;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+    border-bottom: 1px solid black;
+}
+nav .links ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+    font-size: 15px;
+}
+nav img{
+    height: 70px;
+}
+nav .links{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+nav button{
+    background-color: black;
+    width: 140px;
+    height: 50px;
+    color: white;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.hero .container{
+    height: 65vh;
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+}
+.hero .container h1{
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+.hero .container .text{
+    padding: 50px 120px;
+}
+.hero .container .text p{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.hero .container .text button{
+    width: 220px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+.grid .container img{
+    height: 15px;
+    border-radius: 3px;
+}
+.grid .trend i{
+    font-size: 24px;
+}
+.grid .trend{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.grid .trend h4{
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.grid .num h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(199, 198, 198);
+}
+.grid .container .head{
+    display: flex;
+    margin-bottom: 10px;
+}
+.grid .container .head h4{
+    font-size: 13px;
+    margin-left: 8px;
+}
+.grid .container{
+    height: 50vh;
+    padding: 50px 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+    border-bottom: 1px solid gray;
+}
+.grid .container .text h3{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.grid .container .text h4{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+.grid .text{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.grid .box-a{
+    display: flex;
+}
+.grid .box-b{
+    display: flex;
+}
+.grid .box-c{
+    display: flex;
+}
+.grid .box-d{
+    display: flex;
+}
+.grid .box-e{
+    display: flex;
+}
+.grid .box-f{
+    display: flex;
+}
+    
